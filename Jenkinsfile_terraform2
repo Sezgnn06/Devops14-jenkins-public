@@ -5,7 +5,7 @@ pipeline {
         
         stage('Checkout') {
             steps {
-                git branch: 'main, url: 'git@github.com:Vakhob/devops14-jenkins-public.git'
+                git branch: 'main, url: 'git@github.com:Sezgnn06/Devops14-jenkins-public.git'
             }
         }
 
